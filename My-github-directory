@@ -1,0 +1,10 @@
+pg-result-system/
+│
+├── app.py                  ← Your full system (1 file)
+├── requirements.txt        ← Libraries
+├── Procfile                ← Tells Render how to run
+├── .gitignore              ← Don't upload backup files / DB
+├── README.md               ← Description for GitHub page
+│
+└── backups/                ← (Optional) Local backups folder - empty
+    └── .gitkeep
